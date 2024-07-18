@@ -89,6 +89,13 @@ class _PomodoroScreenState extends State<PomodoroScreen> {
     // TODO: Implement the logic to reset the timer
     // Reset the timer to its initial state, clearing any ongoing intervals and
     // resetting the completed cycles count.
+    setState(() {
+      selectedOption = 1;
+      _isWorking = false;
+      _completedCycles = 0;
+      _timer?.cancel();
+      checkConfig();
+    });
   }
 
   //Look its so long but ... =)))) Repeat your self

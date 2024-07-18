@@ -35,4 +35,5 @@ User: user - 123
 
 ## Note
 
-When testing the login feature, it will take quite a while, approximately 1-2 minutes. Alternatively, you can [click here](https://clinic-flask.onrender.com/) beforehand to optimize the waiting time.
+- When testing the login feature, it will take quite a while, approximately 1-2 minutes. Alternatively, you can [click here](https://clinic-flask.onrender.com/) beforehand to optimize the waiting time.
+- I set the time in seconds (not \* 60) to make it easier to try.
